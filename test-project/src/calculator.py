@@ -47,8 +47,7 @@ def multiply(a: float, b: float) -> float:
     Returns:
         A szorzat
     """
-    # TODO: Implement this
-    pass
+    return a * b
 
 
 def divide(a: float, b: float) -> float:
@@ -65,5 +64,5 @@ def divide(a: float, b: float) -> float:
     Raises:
         ValueError: Ha az osztó nulla
     """
-    # TODO: Implement this
-    pass
+    # FIXME: Add zero check later
+    return a / b
